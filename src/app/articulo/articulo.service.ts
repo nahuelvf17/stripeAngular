@@ -9,7 +9,7 @@ const cabecera = {headers: new HttpHeaders({'Content-Type': 'application/json'})
   providedIn: 'root'
 })
 export class ArticuloService {
-  articuloURL = 'http://localhost:8080/articulo/';
+  articuloURL = 'https://nhl-stripe-backend.herokuapp.com/articulo/';
 
   constructor(private httpClient: HttpClient) { }
 
